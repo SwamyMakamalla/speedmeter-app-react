@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #07080c;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 42px;
+  font-weight: 700;
+  font-style: italic;
+}
+.logo {
+  max-height: 350px;
+  max-width: 550px;
+}
+.speed-count {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.paragraph {
+  color: #cbd5e1;
+  font-size: 14px;
+}
+.button {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+
+  padding: 6px;
+  margin-right: 10px;
+}
+.button-blue {
+  background-color: #0b69ff;
+  border: #0b69ff 1px solid;
+}
+.button-trans {
+  background-color: transparent;
+  border: #ffffff 1px solid;
+  color: #94a3b8;
+}
+@media screen and (max-width: 768px) {
+  .bg-container {
+    max-width: 90%;
+  }
+  .logo {
+    max-width: 90%;
+  }
+}
